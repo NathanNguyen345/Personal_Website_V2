@@ -40,3 +40,23 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+.app_root {
+  width: 950px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.upper_triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 1152px;
+  width: 100%;
+  height: 665px;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 665px solid rgb(96, 174, 251);
+  border-right: 1152px solid transparent;
+}
